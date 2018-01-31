@@ -5,8 +5,8 @@ import socket
 def client():
 
     #Creating the socket passing the ip and port as parameters and trying to connect
-    host = "192.168.2.16"
-    port = 4444
+    host = "127.0.0.1"
+    port = xxxx
     mySocket = socket.socket()
     mySocket.connect((host,port))
     received_message=mySocket.recv(4096).decode()

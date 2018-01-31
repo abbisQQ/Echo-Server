@@ -2,7 +2,7 @@ import socket
 
 def server():
     host = "0.0.0.0" #listen at all interfaces
-    port = 4444
+    port = xxxx
     
     mySocket = socket.socket()
     mySocket.setsockopt(socket.SOL_SOCKET,socket.SO_REUSEADDR, 1)
